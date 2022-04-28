@@ -365,8 +365,8 @@ footer a{
     }
 
     .main-image img {
-        width: 194vh;
-        height: 167vh;
+        width: 127vw;
+        height: 135vh;
         border-radius: 2%;
         margin-bottom: 1.5rem;
     }
@@ -503,8 +503,8 @@ footer a{
     }
 
     .main-image img {
-        width: 196vh;
-        height: 168vh;
+        width: 160vw;
+        height: 138vh;
         border-radius: 2%;
         margin-bottom: 1.5rem;
     }
@@ -658,7 +658,7 @@ footer a{
     }
 
     .main-image img {
-        width: 234vh;
+        width: 306vw;
         height: 185vh;
     }
 
@@ -729,6 +729,7 @@ footer a{
 
     .range {
         height: 5rem;
+        width: 284vw;
     }
 
     .add-to-cart p{
