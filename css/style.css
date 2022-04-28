@@ -1,0 +1,1087 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+ */
+ 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 75rem;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0.0625rem solid #b6bcc863;
+    padding-top: 1.5rem;
+    width: 75rem;
+    margin: 0rem 0.625rem 0rem 2.5rem;
+    height: 6.25rem;
+    justify-content: space-between;
+}
+
+.navbar h1{
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: bolder;
+    margin-top: 0.2rem;
+    /* margin-left: -8rem; */
+}
+
+ul{
+    display: flex;
+    /* margin-left: -6.5rem; */
+    margin-top: 1rem;
+}
+
+
+.nav-list-item{
+    /* text-decoration: none; */
+    list-style: none;
+    margin-right: 2rem;
+    list-style-type: none;
+}
+
+.nav-list-item a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #BBBFC8;
+    font-size: 1rem;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.cart{
+    margin: 1rem 0rem 0rem 0rem;
+}
+
+.fa-cart-shopping{
+    color: #69707D;
+    font-size: 1.5em;
+}
+
+.user img{
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.user{
+    margin-left: 3rem;
+}
+
+/* Main Section */
+
+main{
+    padding: 6.25rem 5rem;
+}
+
+.Main-section{
+    display: flex;
+}
+
+.main-image img{
+    width: 65vh;
+    height: 65vh;
+    border-radius: 2%;
+    margin-bottom: 1.5rem;
+}
+
+.sub-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-image img{
+    border-radius: 6.625rem;
+    max-width: 6.65rem;
+    max-height: 6.75rem;
+}
+
+.spl{
+    border: 3px solid #ff7d1a;
+}
+
+.shoes-details{
+    padding-top: 3.125rem;
+    margin-left: 7.5rem;
+}
+
+.shoes-details .heading{
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: bold;
+    color: #ff7d1a;
+}
+
+.shoes-details h1{
+    font-size: 2.5rem;
+    margin: 1.25rem 0rem 2.1875rem 0rem;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.shoes-details .para{
+    color: #68707d;
+    line-height: 1.4;
+    margin-bottom: 1.875rem;
+    font-size: 1rem;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.625rem
+}
+
+.price .amount{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1.25rem;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.discount{
+    padding: 0.1875rem 0.3125rem;
+    background-color: #ffede0;
+    border-radius: 0.1875rem;
+    color: #ff7d1a;
+    font-weight: bold;
+    font-size: .875rem;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.dash{
+    color: #b6bcc8;
+}
+
+.Add-Cart{
+    display: flex;
+    font-family: "Kumbh Sans", sans-serif;
+    margin-top: 1.875rem
+}
+
+.range{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 30%;
+    background-color: #f7f8fd;
+    margin-right: 0.9375rem;
+    font-weight: bold;
+    border-radius: 0.625rem;
+    padding: 0.9375rem;
+    height: 3rem;
+}
+
+.minus{
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.zero{
+    padding-left: 3rem;
+    color: #ff7d1a;
+    font-weight: bold;
+}
+
+.plus{
+    padding-right: 1rem;
+    padding-left: 3rem;
+    font-weight: bold;
+}
+
+.add-to-cart img{
+    max-width: 4.9375rem;
+    margin-right: 0.225rem;
+}
+
+.add-to-cart{
+    background-color: #ff7d1a;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0.625rem;
+    padding: 0.9375rem;
+    flex: 70%;
+    height: 3rem;
+    display: flex;
+    padding-left: 4rem;
+}
+
+.new{
+    color: white;
+    padding-left: 4rem;
+    max-width: 0.9375rem;
+    filter: brightness(2.5);
+    margin-right: 0.625rem;
+}
+
+/* Footer Section */
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ff7d1a;
+}
+
+/* Burger Menu */
+
+.checkbtn{
+    font-size: 3rem;
+    float: left;
+    line-height: 3rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    margin-top: 1rem;
+    display: none;
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px){
+
+    .navbar{
+        width: 70rem;
+    }
+
+    .cart {
+        margin: 1rem 0rem 0rem 10rem;
+    }
+
+    .user {
+        margin-left: -7rem;
+    }
+
+    .main-image img{
+        width: 41vw;
+        height: 81vh;
+        border-radius: 2%;
+        margin-bottom: 1.5rem;
+    }
+
+    .sub-image img{
+        margin-right: 2rem;
+    }
+
+    .add-to-cart{
+        padding-left: 12rem;
+    }
+
+    .add-to-cart img{
+        margin-left: -8rem;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) And (max-width: 1199px){
+    .navbar{
+        /* width: 60rem; */
+        width: 54rem;
+        margin-left: 6rem;
+    }
+
+    .nav-list-item a{
+        font-size: 1.3rem;
+    }
+
+    ul{
+        margin-left: -4.5rem;
+    }
+    .cart {
+        margin: 1rem 0rem 0rem -4rem;
+    }
+
+    .user {
+        margin-left: -7rem;
+    }
+
+    .main-image img{
+        width: 65vh;
+        height: 58vh;
+        border-radius: 2%;
+        margin-bottom: 1.5rem;
+    }
+
+    .sub-image img {
+        border-radius: 0.625rem;
+        max-width: 8.25rem;
+        max-height: 8.25rem;
+    }
+
+    .add-to-cart{
+        padding-left: 12rem;
+    }
+
+    .add-to-cart img{
+        margin-left: -8rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) And (max-width: 991px){
+    .navbar{
+        width: 75rem;
+    }
+    .navbar h1 {
+        font-size: 3rem;
+    }
+
+    .nav-list-item a {
+        font-size: 1.6rem;
+    }
+
+    ul{
+        margin-left: 7rem;
+    }
+
+    .cart {
+        margin: 1rem 0rem 0rem -2rem;
+    }
+
+    .user img {
+        margin-left: -4rem;
+    }
+
+    main{
+        padding: 6.25rem 11rem;
+    }
+
+    .main-image img {
+        width: 103vh;
+        height: 105vh;
+        border-radius: 2%;
+        margin-bottom: 1.5rem;
+    }
+
+    .Main-section{
+        flex-direction: column;
+    }
+
+    /* .sub-image img{
+        border-radius: 0.625rem;
+        max-width: 9.75rem;
+        max-height: 9.75rem;
+        margin-right: 2rem;
+    } */
+
+    .sub-image img {
+        border-radius: 0.625rem;
+        max-width: 14.5rem;
+        max-height: 15.75rem;
+        margin-right: 2rem;
+    }
+
+    .shoes-details {
+        margin-left: 0.5rem;
+    }
+
+    .shoes-details .heading{
+        font-size: 1.5rem;
+        width: 20rem;
+    }
+
+    .shoes-details h1 {
+        font-size: 3.5rem;
+        margin: 2.25rem -19rem 0.1875rem 0rem;
+        width: 30rem;
+    }
+
+    .shoes-details .para {
+        font-size: 1.5rem;
+        width: 47rem;
+    }
+
+    .add-to-cart img {
+        margin-right: -10.774999999999999rem;
+        margin-left: 6rem;
+        position: absolute;
+        width: 2.8rem;
+        margin-top: -0.7999999999999998rem;
+    }
+
+    .add-to-cart{
+        padding-left: 0.01rem;
+    }
+
+    .add-to-cart p{
+        padding-right: 0rem;
+        width: 23rem;
+    }
+
+    footer{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        width: 80rem;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #ff7d1a;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) And (max-width: 767px){
+    .checkbtn{
+        display: block;
+
+    }
+
+    .navbar{
+        width: 75rem;
+    }
+
+    ul{
+        position: absolute;
+        width: 38%;
+        height: 70vh;
+        top: -0.9rem;
+        margin-left: -20rem;
+        background-color: rgb(255, 255, 255);
+        flex-direction: column;
+        display: block;
+        left: 20rem;
+        padding-top: -14rem;
+        padding-left: 3rem;
+        margin-top: 7rem;
+    }
+
+    .nav-list-item {
+        margin-top: 2rem;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .nav-list-item a{
+        font-size: 1.5rem;
+    }
+
+    .cart {
+        margin: 1rem 0rem 0rem 51rem;
+    }
+
+    .user {
+        margin-left: -1rem;
+    }
+
+    main{
+        padding: 6.25rem 8rem;
+    }
+
+    .main-image img {
+        width: 101vh;
+        height: 98vh;
+        border-radius: 2%;
+        margin-bottom: 1.5rem;
+    }
+
+    .Main-section{
+        flex-direction: column;
+    }
+
+    /* .sub-image img{
+        border-radius: 0.625rem;
+        max-width: 9.75rem;
+        max-height: 9.75rem;
+        margin-right: 2rem;
+    } */
+
+    .sub-image img {
+        border-radius: 0.625rem;
+        max-width: 14.5rem;
+        max-height: 14.75rem;
+        margin-right: 2rem;
+    }
+
+    .shoes-details {
+        margin-left: 0.5rem;
+    }
+
+    .shoes-details .heading{
+        font-size: 1.5rem;
+        width: 20rem;
+    }
+
+    .shoes-details h1 {
+        font-size: 3.5rem;
+        margin: 2.25rem -19rem 0.1875rem 0rem;
+        width: 30rem;
+    }
+
+    .shoes-details .para {
+        font-size: 1.5rem;
+        width: 47rem;
+    }
+
+    .add-to-cart img {
+        margin-right: -10.774999999999999rem;
+        margin-left: 6rem;
+        position: absolute;
+        width: 2.8rem;
+        margin-top: -0.7999999999999998rem;
+    }
+
+    .add-to-cart{
+        padding-left: 0.01rem;
+    }
+
+    .add-to-cart p{
+        padding-right: 0rem;
+        width: 23rem;
+    }
+
+    footer{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        width: 80rem;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #ff7d1a;
+    }
+}
+
+/* Extra small devices (phones, less than 600px and 320px up) */
+@media only screen and (max-width: 599px) And (min-width: 320px){
+    .checkbtn{
+        display: block;
+        font-size: 5rem;
+    }
+
+    .navbar{
+        width: 75rem;
+        height: 28vh;
+    }
+
+    .navbar h1 {
+        margin-top: -0.7999999999999998rem;
+        font-size: 4.4rem;
+        padding-left: 2rem;
+    }
+    
+    .fa-cart-shopping{
+        font-size: 2.5rem;
+    }
+
+    ul{
+        position: absolute;
+        width: 38%;
+        height: 70vh;
+        top: -0.9rem;
+        margin-left: -20rem;
+        background-color: rgb(255, 255, 255);
+        flex-direction: column;
+        display: block;
+        left: 20rem;
+        padding-top: -14rem;
+        padding-left: 3rem;
+        margin-top: 9rem;
+    }
+
+    .nav-list-item {
+        margin-top: 2rem;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .nav-list-item a{
+        font-size: 1.5rem;
+    }
+
+    .cart {
+        margin: 1.2rem 0rem 0rem 33rem;
+    }
+
+    .user {
+        margin-left: -1rem;
+    }
+
+    .user img{
+        width: 6rem;
+    }
+
+    main {
+        padding: 6.25rem 2rem;
+    }
+
+    .main-image img {
+        width: 125vh;
+        height: 120vh;
+    }
+
+    .Main-section{
+        flex-direction: column;
+    }
+
+    .sub-image img {
+        border-radius: 0.625rem;
+        max-width: 17.8rem;
+        max-height: 16.75rem;
+        margin-right: 2rem;
+    }
+
+    .shoes-details {
+        margin-left: 0.5rem;
+    }
+
+    .shoes-details .heading {
+        font-size: 2.5rem;
+        width: 31rem;
+    }
+
+    .shoes-details h1 {
+        font-size: 5.5rem;
+        margin: 2.25rem -19rem 0.1875rem 0rem;
+        width: 73rem;
+    }
+
+    .shoes-details .para {
+        font-size: 2rem;
+        width: 59rem;
+    }
+
+    .price .amount {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-right: 1.25rem;
+        font-family: "Kumbh Sans", sans-serif;
+        width: 11rem;
+    }
+
+    .discount{
+        font-size: 1.875rem;
+    }
+
+    del{
+        font-size: 2rem;
+    }
+
+    .add-to-cart img {
+        margin-right: -10.774999999999999rem;
+        margin-left: 2rem;
+        position: absolute;
+        width: 4.8rem;
+        margin-top: -0.7999999999999998rem;
+    }
+
+    .add-to-cart {
+        padding-left: 0.01rem;
+        height: 5rem;
+    }
+
+    .range {
+        height: 5rem;
+    }
+
+    .add-to-cart p{
+        padding-right: 0rem;
+        width: 23rem;
+        font-size: 1.8rem;
+    }
+
+    footer{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        width: 80rem;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #ff7d1a;
+    }
+}
+
+/* Extra small devices (phones, 319px and down) */
+@media only screen and (min-width: 10px) And (max-width: 320px){
+    .checkbtn{
+        display: block;
+        font-size: 7rem;
+        margin-top: 2rem;
+    }
+
+    .navbar{
+        width: 74rem;
+        height: 45vh;
+    }
+
+    .navbar h1 {
+        margin-top: 1.2000000000000002rem;
+        font-size: 5.4rem;
+        padding-left: 2rem;
+    }
+    
+    .fa-cart-shopping {
+        font-size: 5.5rem;
+    }
+
+    ul{
+        position: absolute;
+        width: 98%;
+        height: 91vh;
+        top: -0.9rem;
+        margin-left: -20rem;
+        background-color: rgb(255, 255, 255);
+        flex-direction: column;
+        display: block;
+        left: 20rem;
+        padding-top: -14rem;
+        padding-left: 3rem;
+        margin-top: 15rem;
+    }
+
+    .nav-list-item {
+        margin-top: 2rem;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .nav-list-item a{
+        font-size: 2.5rem;
+    }
+
+    .cart {
+        margin: 3.4000000000000004rem 0rem 0rem 20rem;
+    }
+    .user {
+        margin-left: -1rem;
+    }
+
+    .user img{
+        width: 10rem;
+    }
+
+    main {
+        padding: 6.25rem 1rem;
+    }
+
+    .main-image img {
+        width: 249vh;
+        height: 215vh;
+    }
+
+    .Main-section{
+        flex-direction: column;
+    }
+
+    .sub-image img {
+        border-radius: 0.625rem;
+        max-width: 46.4rem;
+        max-height: 17.75rem;
+        margin-right: 2rem;
+    }
+
+    .shoes-details {
+        margin-left: 0.5rem;
+    }
+
+    .shoes-details .heading {
+    font-size: 3.5rem;
+    width: 42rem;
+    }
+
+    .shoes-details h1 {
+        font-size: 5.5rem;
+        margin: 2.25rem -19rem 0.1875rem 0rem;
+        width: 73rem;
+    }
+
+    .shoes-details .para {
+        font-size: 3rem;
+        width: 77rem;
+    }
+
+    .price .amount {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-right: 1.25rem;
+        font-family: "Kumbh Sans", sans-serif;
+        width: 11rem;
+    }
+
+    .discount{
+        font-size: 1.875rem;
+    }
+
+    del{
+        font-size: 2rem;
+    }
+
+    .add-to-cart img {
+        margin-right: -10.774999999999999rem;
+        margin-left: 2rem;
+        position: absolute;
+        width: 4.8rem;
+        margin-top: -0.7999999999999998rem;
+    }
+
+    .add-to-cart {
+        padding-left: 0.01rem;
+        height: 5rem;
+    }
+
+    .range {
+        height: 5rem;
+    }
+
+    .add-to-cart p{
+        padding-right: 0rem;
+        width: 23rem;
+        font-size: 1.8rem;
+    }
+
+    footer{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        width: 80rem;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #ff7d1a;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width: 834px){
+    .navbar{
+        width: 87rem;
+    }
+    .navbar h1 {
+        font-size: 3rem;
+    }
+
+    .nav-list-item a {
+        font-size: 1.5rem;
+    }
+
+    ul{
+        margin-left: 7rem;
+    }
+
+    .cart {
+        margin: 1rem 0rem 0rem 8rem;
+    }
+
+    .user img {
+        margin-left: -6rem;
+    }
+
+    main{
+        padding: 6.25rem 18rem;
+    }
+
+    .main-image img{
+        width: 145vh;
+        height: 145vh;
+        border-radius: 2%;
+        margin-bottom: 1.5rem;
+    }
+
+    .Main-section{
+        flex-direction: column;
+    }
+
+    .sub-image img{
+        border-radius: 0.625rem;
+        max-width: 32.75vw;
+        max-height: 32.75vh;
+        margin-right: 2rem;
+    }
+
+    .shoes-details {
+        margin-left: 0.5rem;
+    }
+
+    .shoes-details .heading{
+        font-size: 1.5rem;
+    }
+
+    .shoes-details h1 {
+        font-size: 3.5rem;
+        margin: 2.25rem -19rem 0.1875rem 0rem;
+    }
+
+    .shoes-details .para {
+        font-size: 1.5rem;
+        width: 47rem;
+    }
+
+    .add-to-cart img {
+        margin-right: 0.22500000000000142rem;
+        margin-left: 10rem;
+    }
+
+    .add-to-cart{
+        padding-left: 0.01rem;
+    }
+
+    .add-to-cart p{
+        padding-right: 17rem;
+        width: 23rem;
+    }
+
+    footer{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        width: 80rem;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #ff7d1a;
+    }
+} 
+
+
+@media only screen and (max-width: 700px){
+    .navbar{
+        width: 80rem;
+    }
+    .navbar h1 {
+        font-size: 3rem;
+    }
+
+    .nav-list-item a {
+        font-size: 1.5rem;
+    }
+
+    ul{
+        margin-left: 7rem;
+    }
+
+    .cart {
+        margin: 1rem 0rem 0rem 8rem;
+    }
+
+    .user img {
+        margin-left: -4rem;
+    }
+
+    main{
+        padding: 6.25rem 18rem;
+    }
+
+    .main-image img{
+        width: 145vh;
+        height: 145vh;
+        border-radius: 2%;
+        margin-bottom: 1.5rem;
+    }
+
+    .Main-section{
+        flex-direction: column;
+    }
+
+    .sub-image img{
+        border-radius: 0.625rem;
+        max-width: 9.75rem;
+        max-height: 9.75rem;
+        margin-right: 2rem;
+    }
+
+    .shoes-details {
+        margin-left: 0.5rem;
+    }
+
+    .shoes-details .heading{
+        font-size: 1.5rem;
+        width: 20rem;
+    }
+
+    .shoes-details h1 {
+        font-size: 3.5rem;
+        margin: 2.25rem -19rem 0.1875rem 0rem;
+        width: 30rem;
+    }
+
+    .shoes-details .para {
+        font-size: 1.5rem;
+        width: 47rem;
+    }
+
+    .add-to-cart img {
+        margin-right: 0.22500000000000142rem;
+        margin-left: 10rem;
+    }
+
+    .add-to-cart{
+        padding-left: 0.01rem;
+    }
+
+    .add-to-cart p{
+        padding-right: 17rem;
+        width: 23rem;
+    }
+
+    footer{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        width: 80rem;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: #ff7d1a;
+    }
+}  */
+
+
+
+

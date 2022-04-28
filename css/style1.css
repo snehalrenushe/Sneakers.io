@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 75rem;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0.0625rem solid #b6bcc863;
+    padding-top: 1.5rem;
+    width: 75rem;
+    margin: 0rem 0.625rem 0rem 2.5rem;
+    height: 6.25rem;
+    justify-content: space-between;
+}
+
+.navbar h1{
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: bolder;
+    margin-top: 0.2rem;
+    /* margin-left: -8rem; */
+}
+
+ul{
+    display: flex;
+    /* margin-left: -6.5rem; */
+    margin-top: 1rem;
+}
+
+
+.nav-list-item{
+    /* text-decoration: none; */
+    list-style: none;
+    margin-right: 2rem;
+    list-style-type: none;
+}
+
+.nav-list-item a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #BBBFC8;
+    font-size: 1rem;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.cart{
+    margin: 1rem 0rem 0rem 12rem;
+}
+
+.fa-cart-shopping{
+    color: #69707D;
+    font-size: 1.5em;
+}
+
+.user img{
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.user{
+    margin-left: -7rem;
+}
+
+/* Main Section */
+
+main{
+    padding: 6.25rem 5rem;
+}
+
+.Main-section{
+    display: flex;
+}
+
+.main-image img{
+    width: 5vh;
+    height: 85vh;
+    border-radius: 2%;
+    margin-bottom: 1.5rem;
+}
+
+.sub-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-image img{
+    border-radius: 0.625rem;
+    max-width: 6.25rem;
+    max-height: 6.25rem;
+}
+
+.spl{
+    border: 3px solid #ff7d1a;
+}
+
+.shoes-details{
+    padding-top: 3.125rem;
+    margin-left: 7.5rem;
+}
+
+.shoes-details .heading{
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: bold;
+    color: #ff7d1a;
+}
+
+.shoes-details h1{
+    font-size: 2.5rem;
+    margin: 1.25rem 0rem 2.1875rem 0rem;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.shoes-details .para{
+    color: #68707d;
+    line-height: 1.4;
+    margin-bottom: 1.875rem;
+    font-size: 1rem;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.625rem
+}
+
+.price .amount{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1.25rem;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.discount{
+    padding: 0.1875rem 0.3125rem;
+    background-color: #ffede0;
+    border-radius: 0.1875rem;
+    color: #ff7d1a;
+    font-weight: bold;
+    font-size: .875rem;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.dash{
+    color: #b6bcc8;
+}
+
+.Add-Cart{
+    display: flex;
+    font-family: "Kumbh Sans", sans-serif;
+    margin-top: 1.875rem
+}
+
+.range{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 30%;
+    background-color: #f7f8fd;
+    margin-right: 0.9375rem;
+    font-weight: bold;
+    border-radius: 0.625rem;
+    padding: 0.9375rem;
+    height: 3rem;
+}
+
+.minus{
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+.zero{
+    padding-left: 3rem;
+    color: #ff7d1a;
+    font-weight: bold;
+}
+
+.plus{
+    padding-right: 1rem;
+    padding-left: 3rem;
+    font-weight: bold;
+}
+
+.add-to-cart img{
+    max-width: 4.9375rem;
+    margin-right: 0.225rem;
+}
+
+.add-to-cart{
+    background-color: #ff7d1a;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0.625rem;
+    padding: 0.9375rem;
+    flex: 70%;
+    height: 3rem;
+    display: flex;
+    padding-left: 4rem;
+}
+
+.new{
+    color: white;
+    padding-left: 4rem;
+    max-width: 0.9375rem;
+    filter: brightness(2.5);
+    margin-right: 0.625rem;
+}
+
+/* Footer Section */
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ff7d1a;
+}
+
+/* Burger Menu */
+
+.checkbtn{
+    font-size: 3rem;
+    float: left;
+    line-height: 3rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    margin-top: 1rem;
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+        margin:0;
+        padding:0;
+    }
+    .Main-section{
+        flex-direction: column;
+    }
+    .shoes-details{
+        margin: 0;
+        display: flex;
+        padding:0.5rem;
+        flex-direction: column;
+    }
+    .Add-Cart{
+        flex-direction: column;
+    }
+    .image-container{
+        width:70%;
+        height: 20rem;
+        margin-left: 1rem;
+    }
+    .image-container img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .sub-image{
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    }
+    .sub-img-img{
+        width: 50%;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 0.3rem;
+    }
+    .range{
+        display: flex;
+        width:40%;
+    }
+    .add-to-cart{
+        width:78%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2rem;
+    }
+    .add-to-cart img{
+        width: 2.5rem;
+        height:2.5rem;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px){
+    
+}
