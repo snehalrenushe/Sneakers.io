@@ -399,21 +399,29 @@ footer a{
     }
 
     .shoes-details h1 {
-        font-size: 3.5rem;
+        font-size: 4.5rem;
         margin: 2.25rem -19rem 0.1875rem 0rem;
-        width: 30rem;
+        width: 42rem;
     }
 
     .shoes-details .para {
-        font-size: 1.5rem;
-        width: 47rem;
+        font-size: 2.5rem;
+        width: 65rem;
+    }
+
+    .price .amount {
+        font-size: 2.5rem;
+        
+    }
+    .discount {
+        font-size: 1.875rem;
     }
 
     .add-to-cart img {
         margin-right: -10.774999999999999rem;
-        margin-left: 6rem;
+        margin-left: 10rem;
         position: absolute;
-        width: 2.8rem;
+        width: 3.8rem;
         margin-top: -0.7999999999999998rem;
     }
 
@@ -421,9 +429,15 @@ footer a{
         padding-left: 0.01rem;
     }
 
-    .add-to-cart p{
+    .add-to-cart p {
         padding-right: 0rem;
-        width: 23rem;
+        width: 31rem;
+        padding-left: 16rem;
+        font-size: 2rem;
+    }
+
+    .Add-Cart{
+        flex-direction: column;
     }
 
     footer{
@@ -523,33 +537,49 @@ footer a{
     }
 
     .shoes-details h1 {
-        font-size: 3.5rem;
+        font-size: 5.5rem;
         margin: 2.25rem -19rem 0.1875rem 0rem;
-        width: 30rem;
+        width: 64rem;
     }
 
+    
     .shoes-details .para {
-        font-size: 1.5rem;
-        width: 47rem;
+        font-size: 2.5rem;
+        width: 65rem;
+    }
+
+    .price .amount {
+        font-size: 3.5rem;
+        
+    }
+    .discount {
+        font-size: 2.875rem;
     }
 
     .add-to-cart img {
         margin-right: -10.774999999999999rem;
-        margin-left: 6rem;
+        margin-left: 16rem;
         position: absolute;
-        width: 2.8rem;
+        width: 16.8rem;
         margin-top: -0.7999999999999998rem;
     }
 
     .add-to-cart{
         padding-left: 0.01rem;
+        width: 58rem;
     }
 
-    .add-to-cart p{
+    .add-to-cart p {
         padding-right: 0rem;
-        width: 23rem;
+        width: 47rem;
+        padding-left: 16rem;
+        font-size: 3rem;
     }
 
+    .Add-Cart{
+        flex-direction: column;
+    }
+   
     footer{
         font-size: 1.5rem;
         margin-left: 2rem;
@@ -653,18 +683,18 @@ footer a{
     }
 
     .shoes-details h1 {
-        font-size: 5.5rem;
+        font-size: 7.5rem;
         margin: 2.25rem -19rem 0.1875rem 0rem;
         width: 73rem;
     }
 
     .shoes-details .para {
-        font-size: 2rem;
-        width: 59rem;
+        font-size: 4rem;
+        width: 82rem;
     }
 
     .price .amount {
-        font-size: 3rem;
+        font-size: 5rem;
         font-weight: bold;
         margin-right: 1.25rem;
         font-family: "Kumbh Sans", sans-serif;
@@ -672,24 +702,29 @@ footer a{
     }
 
     .discount{
-        font-size: 1.875rem;
+        font-size: 4.875rem;
+        margin-left: 8rem;
     }
 
     del{
-        font-size: 2rem;
+        font-size: 4rem;
+    }
+
+    .Add-Cart{
+        flex-direction: column;
     }
 
     .add-to-cart img {
         margin-right: -10.774999999999999rem;
-        margin-left: 2rem;
+        margin-left: 16rem;
         position: absolute;
-        width: 4.8rem;
+        width: 120.8rem;
         margin-top: -0.7999999999999998rem;
     }
 
     .add-to-cart {
         padding-left: 0.01rem;
-        height: 5rem;
+        width: 70rem;
     }
 
     .range {
@@ -698,8 +733,8 @@ footer a{
 
     .add-to-cart p{
         padding-right: 0rem;
-        width: 23rem;
-        font-size: 1.8rem;
+        width: 85rem;
+        font-size: 3.8rem;    
     }
 
     footer{
