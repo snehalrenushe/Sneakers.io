@@ -314,16 +314,16 @@ footer a{
     }
 
     .main-image img{
-        width: 65vh;
-        height: 58vh;
+        width: 83vh;
+        height: 77vh;
         border-radius: 2%;
         margin-bottom: 1.5rem;
     }
 
     .sub-image img {
         border-radius: 0.625rem;
-        max-width: 8.25rem;
-        max-height: 8.25rem;
+        max-width: 6.25rem;
+        max-height: 7.25rem;
     }
 
     .add-to-cart{
@@ -365,8 +365,8 @@ footer a{
     }
 
     .main-image img {
-        width: 103vh;
-        height: 105vh;
+        width: 181vh;
+        height: 145vh;
         border-radius: 2%;
         margin-bottom: 1.5rem;
     }
@@ -503,8 +503,8 @@ footer a{
     }
 
     .main-image img {
-        width: 101vh;
-        height: 98vh;
+        width: 181vh;
+        height: 134vh;
         border-radius: 2%;
         margin-bottom: 1.5rem;
     }
@@ -658,8 +658,8 @@ footer a{
     }
 
     .main-image img {
-        width: 125vh;
-        height: 120vh;
+        width: 219vh;
+        height: 173vh;
     }
 
     .Main-section{
