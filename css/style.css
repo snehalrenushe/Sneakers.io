@@ -654,12 +654,12 @@ footer a{
     }
 
     main {
-        padding: 6.25rem 2rem;
+        padding: 6.25rem 4rem;
     }
 
     .main-image img {
-        width: 306vw;
-        height: 185vh;
+        width: 310vw;
+        height: 158vh;
     }
 
     .Main-section{
